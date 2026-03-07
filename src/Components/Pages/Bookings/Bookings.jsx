@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React from 'react';
 import { date, getFromDB } from '../../../util/makeBooking';
 import { Link, useLoaderData } from 'react-router';
 import { PiEmptyFill } from 'react-icons/pi';

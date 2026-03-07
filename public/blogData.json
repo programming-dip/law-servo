@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "useState Hook",
+    "description": "What is useState and how does it work in React?",
+    "answered": "useState is a Hook that allows you to add state to functional components. It returns an array with two values: the current state and a function to update it. When the state changes, React automatically re-renders the component to reflect the new data.",
+    "card_image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800&auto=format&fit=crop",
+    "author": {
+      "name": "Alex Rivera",
+      "image": "https://img.daisyui.com/images/profile/demo/kenobee@192.webp",
+      "date": "15 Mar 2024"
+    }
+  },
+  {
+    "id": 2,
+    "title": "The Purpose of useEffect",
+    "description": "What is the purpose of useEffect in React?",
+    "answered": "useEffect is used to handle 'side effects' like fetching data, manual DOM manipulations, or setting up subscriptions. It runs after the render and can be configured to run only once, on every render, or only when specific dependencies change.",
+    "card_image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop",
+    "author": {
+      "name": "Jordan Smith",
+      "image": "https://i.pravatar.cc/150?u=jordan",
+      "date": "18 Mar 2024"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Custom Hooks in React",
+    "description": "What is a custom hook in React and when should you use one?",
+    "answered": "A custom hook is a JavaScript function whose name starts with 'use' and that can call other Hooks. You should use them to extract component logic into reusable functions, keeping your components clean and following the DRY (Don't Repeat Yourself) principle.",
+    "card_image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800&auto=format&fit=crop",
+    "author": {
+      "name": "Sam Chen",
+      "image": "https://i.pravatar.cc/150?u=sam",
+      "date": "22 Mar 2024"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Controlled vs Uncontrolled",
+    "description": "Difference between controlled and uncontrolled components. Which one is better?",
+    "answered": "Controlled components have their state managed by React (via useState), making them more predictable and easier to validate. Uncontrolled components store their own state internally (using Refs). Controlled is generally considered 'better' because it offers more control over form data.",
+    "card_image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
+    "author": {
+      "name": "Taylor Reed",
+      "image": "https://i.pravatar.cc/150?u=taylor",
+      "date": "25 Mar 2024"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Exploring useFormStatus()",
+    "description": "Tell us something about useFormStatus() in React.",
+    "answered": "useFormStatus is a new React hook that provides status information of the last form submission, such as 'pending' state. It is incredibly useful for UI elements like 'Submit' buttons that need to disable themselves while a Form Action is running.",
+    "card_image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
+    "author": {
+      "name": "Morgan Lee",
+      "image": "https://i.pravatar.cc/150?u=morgan",
+      "date": "28 Mar 2024"
+    }
+  }
+]
