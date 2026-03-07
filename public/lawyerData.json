@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+        "name": "Lachlan McGregor",
+        "speciality": "Criminal Defense",
+        "experience": "15 years",
+        "license_number": "NSW-884210",
+        "fee": 450,
+        "availability": ["Monday", "Tuesday", "Wednesday", "Thursday","Saturday"],
+        "lawyerDetail": "Lachlan is a formidable advocate in criminal law, known for his strategic defense in high-stakes cases. He provides dedicated representation, ensuring every client receives a fair trial and robust legal protection."
+    },
+    {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "name": "Sienna Whitlam",
+        "speciality": "Family Law",
+        "experience": "8 years",
+        "license_number": "VIC-441293",
+        "fee": 320,
+        "availability": ["Monday", "Wednesday", "Friday","Saturday"],
+        "lawyerDetail": "Sienna specializes in compassionate family law mediation and litigation. She focuses on achieving balanced outcomes for families, prioritizing the well-being of children while navigating complex divorce and property settlement negotiations efficiently."
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "name": "Hamish O'Reilly",
+        "speciality": "Corporate Compliance",
+        "experience": "22 years",
+        "license_number": "QLD-990152",
+        "fee": 600,
+        "availability": ["Tuesday", "Thursday","Sunday"],
+        "lawyerDetail": "With over two decades of experience, Hamish guides major corporations through complex regulatory landscapes. He is an expert in risk management, internal auditing, and ensuring long-term adherence to international business standards."
+    },
+    {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
+        "name": "Priya Singh",
+        "speciality": "Intellectual Property",
+        "experience": "6 years",
+        "license_number": "WA-332567",
+        "fee": 280,
+        "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Sunday"],
+        "lawyerDetail": "Priya is a rising talent in IP law, helping creators and startups protect their innovations. She specializes in trademark registration, patent filing, and defending digital assets in an evolving tech market."
+    },
+    {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
+        "name": "Alistair Thorne",
+        "speciality": "Environmental Law",
+        "experience": "12 years",
+        "license_number": "SA-771482",
+        "fee": 380,
+        "availability": ["Wednesday", "Thursday", "Friday","Sunday"],
+        "lawyerDetail": "Alistair is dedicated to environmental advocacy and sustainability regulations. He advises organizations on climate policy compliance, land use disputes, and conservation efforts, balancing industrial growth with essential ecological protection standards."
+    },
+    {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
+        "name": "Kylie Minogue-Smith",
+        "speciality": "Employment & Labor",
+        "experience": "10 years",
+        "license_number": "NSW-229384",
+        "fee": 350,
+        "availability": ["Monday", "Tuesday", "Friday"],
+        "lawyerDetail": "Kylie provides expert counsel on workplace relations and labor disputes. She is highly skilled in contract negotiations, wrongful termination cases, and fostering equitable environments for both employers and employees across NSW."
+    },
+    {
+        "id": 7,
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+        "name": "Jia-Hao Lin",
+        "speciality": "Immigration Law",
+        "experience": "5 years",
+        "license_number": "VIC-118472",
+        "fee": 250,
+        "availability": ["Monday", "Wednesday", "Friday"],
+        "lawyerDetail": "Jia-Hao assists clients with complex visa applications and citizenship pathways. He offers personalized guidance through the Australian immigration system, ensuring all documentation is meticulous and legal hurdles are navigated smoothly."
+    },
+    {
+        "id": 8,
+        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671857",
+        "name": "Beatrix Wentworth",
+        "speciality": "Real Estate & Property",
+        "experience": "18 years",
+        "license_number": "TAS-556391",
+        "fee": 420,
+        "availability": ["Tuesday", "Wednesday", "Thursday"],
+        "lawyerDetail": "Beatrix is a veteran in property law, handling everything from residential conveyancing to large-scale commercial leases. Her attention to detail ensures that title transfers and development contracts are legally flawless."
+    },
+    {
+        "id": 9,
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+        "name": "Finn Callaghan",
+        "speciality": "Personal Injury",
+        "experience": "14 years",
+        "license_number": "QLD-667201",
+        "fee": 400,
+        "availability": ["Monday", "Tuesday", "Wednesday"],
+        "lawyerDetail": "Finn is a compassionate advocate for those seeking justice after accidents. He specializes in securing maximum compensation for medical costs and lost wages, ensuring clients can focus entirely on their recovery."
+    },
+    {
+        "id": 10,
+        "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+        "name": "Elara Vance",
+        "speciality": "Maritime Law",
+        "experience": "9 years",
+        "license_number": "WA-443829",
+        "fee": 310,
+        "availability": ["Thursday", "Friday"],
+        "lawyerDetail": "Elara navigates the specialized world of maritime regulations and shipping disputes. She handles cargo claims, international waters jurisdiction, and vessel registration, providing expert legal support to the Western Australian shipping industry."
+    },
+    {
+        "id": 11,
+        "image": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c",
+        "name": "Angus Broadstock",
+        "speciality": "Tax Law",
+        "experience": "20 years",
+        "license_number": "ACT-112233",
+        "fee": 550,
+        "availability": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "lawyerDetail": "Angus is a strategic tax consultant for high-net-worth individuals and organizations. He specializes in tax planning, ATO audits, and complex structural advice, ensuring his clients remain fully compliant while optimizing returns."
+    },
+    {
+        "id": 12,
+        "image": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604",
+        "name": "Zoe Katsaros",
+        "speciality": "Human Rights",
+        "experience": "7 years",
+        "license_number": "SA-885920",
+        "fee": 275,
+        "availability": ["Tuesday", "Thursday", "Friday"],
+        "lawyerDetail": "Zoe is a passionate defender of civil liberties and human rights. She represents marginalized groups in discrimination cases and works tirelessly to influence policy changes that promote equality and social justice."
+    }
+]
