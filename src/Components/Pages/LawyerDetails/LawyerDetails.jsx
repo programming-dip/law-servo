@@ -79,6 +79,7 @@ const LawyerDetails = () => {
                     <div className="badge badge-soft badge-warning py-12 md:py-6 lg:py-4"> <PiWarningDiamond />Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</div>
                     <button onClick={()=>makeBooking(targetedLawyerData)} className="btn btn-success rounded-3xl text-base-100">Book Appointment Now</button>
                     <ToastContainer />
+                    
                 </div>
             </div>
 

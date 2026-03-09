@@ -13,7 +13,7 @@ const removeBooking = (bookedLawyerData) => {
 
      toast.warn(`Cancelled your booking with ${bookedLawyerData.name} today!`, {
         position: "top-right",
-        autoClose: 5000,
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: false,
         pauseOnHover: true,
@@ -21,12 +21,8 @@ const removeBooking = (bookedLawyerData) => {
         progress: undefined,
         theme: "light",
         transition: Bounce,
+        onClose: ()=>{window.location.reload();}
     });
-
-    setTimeout(()=>{
-        window.location.reload();
-    },2000);
-
 }
 
 export { removeBooking };
