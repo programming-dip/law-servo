@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/images/logo.png';
-import { navLinks } from '../../utility/navLinks';
+import { navLinks } from '../../util/navLinks';
 const Footer = () => {
 
     return (

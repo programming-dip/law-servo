@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import logo from '../../assets/images/logo.png'
-import { navLinks } from '../../utility/navLinks';
+import { navLinks } from '../../util/navLinks';
 
 
 
