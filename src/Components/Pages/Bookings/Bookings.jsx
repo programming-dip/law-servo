@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { date, getFromDB } from '../../../util/makeBooking';
 import { Link, useLoaderData } from 'react-router';
 import { PiEmptyFill } from 'react-icons/pi';
@@ -6,7 +6,11 @@ import BookedLawyerCard from '../../BookedLawyerCard/BookedLawyerCard';
 import FeeChart from '../../FeeChart/FeeChart';
 
 
+
+
+
 const Bookings = () => {
+
     const bookingData = getFromDB();
     const lawyersData = useLoaderData();
     const currentDate = date;
@@ -40,7 +44,7 @@ const Bookings = () => {
 
             <div className='max-w-[90vw] mx-auto mt-6'>
 
-                <FeeChart bookedLawyersDataArr = {bookedLawyersDataArr}></FeeChart>
+                <FeeChart bookedLawyersDataArr={bookedLawyersDataArr}></FeeChart>
                 <div className='text-center'>
                     <h2 className='font-bold text-3xl'>My Today Appointments</h2>
                     <p className='text-lg mt-4'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>

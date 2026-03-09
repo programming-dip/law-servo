@@ -1,41 +1,37 @@
-const dateObj = new Date();
-const date = dateObj.toLocaleDateString();
-const makeBooking = (id) => {
+import { useEffect, useMemo, useState } from "react";
+import { useLocation } from "react-router"
 
-    const getFromDB = () => {
-        const dbDataJSON = localStorage.getItem("bookingData");
+export const useDynamicTitle = () => {
+    const location = useLocation();
+    const [lawyerData, setLawyerData] = useState({});
 
-        if (dbDataJSON) {
-            return JSON.parse(dbDataJSON);
-        } else {
-            return [];
+
+    useMemo(() => {
+      fetch("/lawyerData.json")
+            .then(res => res.json())
+            .then(data => setLawyerData(data));
+    }, []);
+
+    console.log("dyPag", lawyerData);
+    useEffect(() => {
+        const path = location.pathname;
+
+        const pageTitles = {
+            '/': 'Home - LawServo',
+            "/my-booking": "Bookings - LawServo",
+            "/blogs": "Blogs - LawServo",
+
+        };
+
+        if (pageTitles[path]) {
+            document.title = pageTitles[path];
+        } else if (path.startsWith("/lawyerDetails")) {
+            const segments = path.split("/");
+            const id = segments[2];
+            const lawyerName = lawyerData[id-1]?.name;
+            
+                document.title = `${lawyerName} - LawServo`;
+            
         }
-
-    }
-
-    const setToDB = (id) => {
-
-        
-        const dbDataArr = getFromDB();
-
-        const isBooked = dbDataArr.some((item) => item.lawyerId === id && item.date === date);
-
-        if (isBooked) {
-            console.log("!!!Booked!!!");
-        } else {
-            const bookingObj = {
-                lawyerId: id,
-                date: date
-            }
-
-            const newBookingObj = [...dbDataArr, bookingObj];
-            const newBookingJSON = JSON.stringify(newBookingObj);
-            localStorage.setItem("bookingData", newBookingJSON);
-        }
-
-    }
-
-    setToDB(id);
+    }, [location,lawyerData])
 }
-
-export { makeBooking };
