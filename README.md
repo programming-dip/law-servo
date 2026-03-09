@@ -54,7 +54,7 @@ A custom-designed blog section covering essential React concepts:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/lawyer-booking-app.git](https://github.com/your-username/lawyer-booking-app.git)
+    git clone https://github.com/programming-dip/law-servo.git
     ```
 2.  **Install dependencies:**
     ```bash
