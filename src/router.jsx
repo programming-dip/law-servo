@@ -6,6 +6,7 @@ import Home from "./Components/Pages/Home/Home";
 import LawyerDetails from "./Components/Pages/LawyerDetails/LawyerDetails";
 import Bookings from "./Components/Pages/Bookings/Bookings";
 import Blogs from "./Components/Pages/Blogs/Blogs";
+import NoLawyerFound from "./Components/Lawyers/NoLawyerFound";
 
 export const router = createBrowserRouter([
     {
@@ -22,7 +23,8 @@ export const router = createBrowserRouter([
             {
                 path: "/lawyerDetails/:paraId",
                 Component: LawyerDetails,
-                loader: async()=> fetch("/lawyerData.json")
+                loader: async()=> fetch("/lawyerData.json"),
+                errorElement: <NoLawyerFound></NoLawyerFound>
             },
             {
                 path: "/my-booking",
