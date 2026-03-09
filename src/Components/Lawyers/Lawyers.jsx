@@ -1,12 +1,15 @@
 import React, { useContext, useState } from 'react';
 import { dataContext } from '../Pages/Home/Home';
 import Lawyer from '../Lawyer/Lawyer';
+import { useNavigation } from 'react-router';
 
 const Lawyers = () => {
     const lawyersData = useContext(dataContext);
     console.log(lawyersData);
 
     const [showAllLawyers, setShowAllLawyers] = useState(false);
+
+    
 
     return (
         <div className='my-20'>

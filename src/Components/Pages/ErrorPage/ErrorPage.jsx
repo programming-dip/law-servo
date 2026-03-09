@@ -26,12 +26,7 @@ const ErrorPage = () => {
                             <Link to="/" className="btn btn-primary shadow-lg">
                                 Back to Home
                             </Link>
-                            <button
-                                onClick={() => window.history.back()}
-                                className="btn btn-outline btn-secondary"
-                            >
-                                Go Back
-                            </button>
+                            
                         </div>
                     </div>
 
