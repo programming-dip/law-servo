@@ -3,7 +3,7 @@
 A high-performance, React-based web application for browsing legal professionals and managing appointments. This project features dynamic routing, real-time data visualization, and persistent state management, built as part of a developer assessment.
 
 ## 🚀 Live Demo
-[**Live Link Here**]
+[**https://lawservo.netlify.app/**]
 
 ---
 
